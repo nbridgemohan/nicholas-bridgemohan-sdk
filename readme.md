@@ -1,6 +1,6 @@
 ## About the Project?
 
-This is the my The Lord of the Rings SDK take home project for LibLab (Please hire me 😉)
+This is the my The Lord of the Rings SDK take home project for LibLab done by Nicholas Bridgemohan.
 
 ### Prerequisites
 
@@ -66,19 +66,3 @@ You will need a API Key (Or you can just use the one in the project)
   ```sh
   node index.js
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
