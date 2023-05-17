@@ -4,7 +4,7 @@ This is the my The Lord of the Rings SDK take home project for LibLab done by Ni
 
 ### Prerequisites
 
-You will need a API Key (Or you can just use the one in the project)
+You will need a API Key (Or you can just use the one in the sample code below for ease of use)
 
 - Api Key
   ```sh
@@ -35,8 +35,7 @@ You will need a API Key (Or you can just use the one in the project)
 
   ```sh
     const lotrsdkv2 = require('lotrsdkv2');
-
-    // set api key
+    //SAMPLE API KEY
     lotrsdkv2.setApiKey('_ZcZ8yD-p5ZomLh2uB1X');
 
     lotrsdkv2.getMovies().then((movies) => {
@@ -61,7 +60,7 @@ You will need a API Key (Or you can just use the one in the project)
 
   ```
 
-  - Create index.js
+  - Run Code
 
   ```sh
   node index.js
