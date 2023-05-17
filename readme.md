@@ -11,7 +11,7 @@ You will need a API Key (Or you can just use the one in the sample code below fo
   https://the-one-api.dev/sign-up
   ```
 
-## Getting Started
+## Running the SDK
 
 - NPM
 
@@ -35,7 +35,7 @@ You will need a API Key (Or you can just use the one in the sample code below fo
 
   ```sh
     const lotrsdkv2 = require('lotrsdkv2');
-    //SAMPLE API KEY
+    //Set Api Key (this API key is from a dummy data website)
     lotrsdkv2.setApiKey('_ZcZ8yD-p5ZomLh2uB1X');
 
     lotrsdkv2.getMovies().then((movies) => {
